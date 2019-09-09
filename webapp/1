@@ -1,0 +1,5 @@
+<!--<link rel="stylesheet" href="{{ STATIC_URL }}css/style.css"/>-->
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+
+<h1>Welcome</h1>
